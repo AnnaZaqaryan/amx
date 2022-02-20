@@ -1,0 +1,39 @@
+.izuaCS{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+}
+.footer .icon-user{
+    position: absolute;
+    right: 220px;
+}
+.footer .input {
+   background: #C2C2C2;
+   opacity: 0.24;
+   border-radius: 16px;
+   height: 48px;
+   width: 270px;
+   border: none;
+   padding: 0 15px;
+}
+.footer .follow{
+ color: #ADADAD;
+ font-weight: 800;
+ font-size: 12px;
+ line-height: 15px;
+ letter-spacing: 2.5px;
+ text-transform: uppercase;
+
+}
+.footer a{
+    display: flex;
+    color: #2D3436;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.footer .icons svg{
+    margin-right: 32px;
+    cursor: pointer;
+}
