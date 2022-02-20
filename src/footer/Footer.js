@@ -5,9 +5,11 @@ import { ReactComponent as FaceBook } from '../assets/icons/face-book.svg';
 import { ReactComponent as Linkedin } from '../assets/icons/icon-linkedin.svg';
 import { ReactComponent as Slack } from '../assets/icons/icon-slack.svg';
 import { ReactComponent as Twitter } from '../assets/icons/icon-twitter.svg';
-import { ReactComponent as User } from '../assets/icons/icon-user.svg';
-import './styles.css';
 
+import Wave from '../assets/images/wave.png';
+
+import './styles.css';
+import AxInput from '../shared/AxInput/index';
 
 const Footer = () => {
 
@@ -15,51 +17,46 @@ const Footer = () => {
         <div className='footer'>
             <Container>
                 <Row>
-                    <Col md={6} className="d-flex justify-content-start">
+                    <Col md={6} >
+                        <p className="follow">Follow us</p>
                         <div className="icons">
-                            <p className="follow">Follow us</p>
                             <a href='#'><FaceBook /> </a>
                             <a href='#'><Linkedin /> </a>
                             <a href='#'><Slack /> </a>
                             <a href='#'> <Twitter /> </a>
                         </div>
                     </Col>
-                    <Col md={6} className="d-flex justify-content-end">
+                    <Col md={6}>
                         <div>
-                            <p>Follow us</p>
+                            <p className='follow'>Follow us</p>
                             <img src={Email} />
+                            <p className="keep">keep in touch</p>
                         </div>
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm={4} md={3}>
-
-                        <p>information</p>
+                    <Col sm={4} md={2}>
+                        <p className="information">information</p>
                         <a href="#">About Fapster app </a>
                         <a href="#">Get in Touch</a>
                         <a href="#"> Things We Like</a>
                     </Col>
-                    <Col sm={4} md={3}>
-                        <a href="#">Onhovered / Active</a>
+                    <Col sm={4} md={2}>
+                        <a href="#" className="active">Onhovered / Active</a>
                         <a href="#">Privacy Policy</a>
                         <a href="#">Terms of Service </a>
 
                     </Col>
-                    <Col sm={4} md={3}>
-                        <a href="#">Writing</a>
-                        <a href="#">Internships</a>
-                        <a href="#">Coding</a>
-                        <a href="#">Teaching</a>
+                    <Col sm={4} md={2}>
+                        <a href="#">We are hiring!</a>
+                        <a href="#">Resources</a>
                     </Col>
-                    <Col sm={4} md={3} >
-
-                        <p>keep in touch</p>
-
-                        <input className="input" type="text" placeholder='Your name' />
-                        <User className='icon-user' />
+                    <Col sm={4} md={5}>
+                     <AxInput/>
                     </Col>
                 </Row>
             </Container>
+            <img className="footer-image" src={Wave} />
         </div>
     )
 }
