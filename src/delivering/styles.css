@@ -13,3 +13,12 @@
 .delivering .iconDelive{
     padding: 0 12px;
 }
+.delivering .img{
+    width: 100%;
+    margin: 10px;
+}
+@media screen and (max-width: 991px) {
+    .iconDelive{
+        width: 100%;
+    }
+}

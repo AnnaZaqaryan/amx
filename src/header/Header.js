@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-                <GridMobile className="grid-icon-mobile" />
+                {/* <GridMobile className="grid-icon-mobile" /> */}
                 <Navbar.Brand href="#">
                     <HeaderLogo />
                     <HeaderGrid />

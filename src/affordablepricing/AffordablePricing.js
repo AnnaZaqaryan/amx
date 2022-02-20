@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import Affordable from '../assets/images/affordable.png';
+import PricingMobile from '../assets/images/pricing-mobile.png';
 import Billyearly from '../assets/images/Billyearly.png';
 import { ReactComponent as Dp } from '../assets/icons/dp.svg';
 import { ReactComponent as Likepussy } from '../assets/icons/likepussy.svg';
@@ -45,7 +46,8 @@ const AffordablePricing = () => {
             <Container>
                 <Row>
                     <Col md={12} className="d-flex justify-content-center">
-                        <img src={Affordable} />
+                        <img className='affordable' src={Affordable} />
+                        <img className='pricing-mobile' src={PricingMobile} />
                     </Col>
                     <Col md={12} className="d-flex justify-content-center">
                         <div className='title'>

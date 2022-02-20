@@ -22,17 +22,17 @@ const Delivering = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm={6} md={3} className="d-flex justify-content-center">
-                        <img src={FeatureIconicPink} />
+                    <Col xs={6} sm={6} md={3} className="d-flex justify-content-center">
+                        <img className='img' src={FeatureIconicPink} />
                     </Col>
-                    <Col sm={6} md={3} className="d-flex justify-content-center">
-                        <img src={FeatureIconicBlue} />
+                    <Col xs={6} sm={6} md={3} className="d-flex justify-content-center">
+                        <img className='img' src={FeatureIconicBlue} />
                     </Col>
-                    <Col sm={6} md={3} className="d-flex justify-content-center">
-                        <img src={FeatureIconicPurple} />
+                    <Col  xs={6} sm={6} md={3} className="d-flex justify-content-center">
+                        <img className='img' src={FeatureIconicPurple} />
                     </Col>
-                    <Col sm={6} md={3} className="d-flex justify-content-center">
-                        <img src={FeatureIconicGreen} />
+                    <Col xs={6} sm={6} md={3} className="d-flex justify-content-center">
+                        <img className='img' src={FeatureIconicGreen} />
                     </Col>
                 </Row>
             </Container>

@@ -35,6 +35,17 @@
     background-size: cover;
 }
 
+.main .wave-mobile {
+    position: absolute;
+    height: 753px;
+    width: 800px;
+    left: 54%;
+    top: -85px;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main .donsImg {
     position: absolute;
     right: -355px;
@@ -43,35 +54,57 @@
 
 .combine-mobile {
     display: none;
+    margin: 20px 0;
 }
 
 .cool-mobile {
     display: none;
+    margin: 20px 0;
 }
 
 .torepresent-mobile {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
-    .combine-mobile{
+.bg {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    .backgroundImage {
+        display: none;
+    }
+
+    .donsImg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .combine-mobile {
         display: block;
     }
 
     .cool-mobile {
         display: block;
     }
+
     .torepresent-mobile {
         display: block;
-    }    
+    }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 576px) {
     .combineImg {
         display: none;
     }
 
     .torepresent {
+        display: none;
+    }
+
+    .backgroundImage {
         display: none;
     }
 }

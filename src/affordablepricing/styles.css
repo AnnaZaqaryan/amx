@@ -1,7 +1,6 @@
 .affordable-pricing{
     position: relative;
     margin-top: 100px;
-    height: 100vh;
     z-index: 200;
 }
 .affordable-pricing .title{
@@ -38,7 +37,7 @@
     line-height: 32px;
     letter-spacing: 0.2px;
     max-width: 306px;
-    margin-top: 136px;
+    margin-top: 40px;
 }
 .affordable-pricing .cards{
     padding-top: 40px;
@@ -57,4 +56,23 @@
 
 .card .icon-free{
     margin:  16px 0 24px 0;
+}
+.pricing-mobile{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .affordable{
+       display: none;
+    }
+    .pricing-mobile{
+        display: block;
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .affordable-pricing .card{
+        width: 100%;
+        margin: 20px 0;
+       }
 }

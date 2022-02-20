@@ -1,10 +1,6 @@
-.izuaCS{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    position: relative;
+.footer{
+    margin-top: 200px;
 }
-
 .footer .follow{
  color: #ADADAD;
  font-weight: 800;
