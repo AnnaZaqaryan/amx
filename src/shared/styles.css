@@ -22,11 +22,11 @@
     right: 7px;
     top: 5px;
 }
-.footer .input {
+.ax-input .input {
     background: #f0f0f0;
     border-radius: 16px;
     height: 48px;
-    width: 270px;
+    width: 248px;
     border: none;
     padding: 0 15px;
  }
@@ -44,7 +44,6 @@
 .textarea {
     height: 80px;
     width: 370px;
-    opacity: 0.24;
     padding: 15px;
     background: #f0f0f0;
     border: 2px solid #6C5CE7;

@@ -55,8 +55,8 @@ const AffordablePricing = () => {
                     </Col>
                 </Row>
                 <Row className="cards">
-                    {cardItems.map((item) => (
-                        <Col sm={6} md={4} className="d-flex justify-content-center">
+                    {cardItems.map((item, index) => (
+                        <Col key={index} sm={6} md={4} className="d-flex justify-content-center">
                             <Card className="card">
                                 <div>
                                     {item.iconLik}

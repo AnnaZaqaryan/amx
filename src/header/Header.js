@@ -1,31 +1,36 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import { ReactComponent as HeaderLogo } from '../assets/icons/icon-layout.svg';
 import { ReactComponent as HeaderGrid } from '../assets/icons/grid.svg';
-import Menu from '../menu/Menu';
 
 import './styles.css';
 
 const Header = () => {
 
-  return (
-    <div className='header'> 
-    <Container>
-        <Row>
-          <Col sm={3} md={2}>
-            <HeaderLogo />
-            <HeaderGrid />
-          </Col>
-          <Col  sm={6} md={8}>
-            <Menu />
-          </Col>
-          <Col sm={3} md={2}>
-            <button className='header-btn'>Sign In</button>
-          </Col>
-        </Row>
-      </Container>
-    </div>
-  );
+    return (
+        <Navbar bg="light" expand="lg">
+            <Container fluid>
+                <Navbar.Brand href="#">
+                    <HeaderLogo />
+                    <HeaderGrid />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Collapse id="navbarScroll">
+                    <Nav
+                        className="me-auto my-2 my-lg-0"
+                        style={{ maxHeight: '100px' }}
+                        navbarScroll
+                    >
+                        <Nav.Link href="#action1"> How it works</Nav.Link>
+                        <Nav.Link href="#action2">Who we are</Nav.Link>
+                        <Nav.Link href="#action3">What we do </Nav.Link>
+                        <Nav.Link href="#action4">Contact us </Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+                <button className='header-btn'>Sign In</button>
+            </Container>
+        </Navbar>
+    );
 }
 
 export default Header;
