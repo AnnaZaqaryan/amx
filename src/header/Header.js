@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import { ReactComponent as HeaderLogo } from '../assets/icons/icon-layout.svg';
 import { ReactComponent as HeaderGrid } from '../assets/icons/grid.svg';
+import { ReactComponent as GridMobile } from '../assets/icons/grid-mobile.svg';
 
 import './styles.css';
 
@@ -9,7 +10,8 @@ const Header = () => {
 
     return (
         <Navbar bg="light" expand="lg">
-            <Container fluid>
+            <Container>
+                <GridMobile className="grid-icon-mobile" />
                 <Navbar.Brand href="#">
                     <HeaderLogo />
                     <HeaderGrid />
@@ -18,7 +20,12 @@ const Header = () => {
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
                         className="me-auto my-2 my-lg-0"
-                        style={{ maxHeight: '100px' }}
+                        style={{
+                            maxHeight: '100px',
+                            width: '100%',
+                            display: 'flex',
+                            justifyContent: 'center'
+                        }}
                         navbarScroll
                     >
                         <Nav.Link href="#action1"> How it works</Nav.Link>
