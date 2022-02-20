@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amx/static/css/main.56746ba6.css",
-    "main.js": "/amx/static/js/main.8206da84.js",
+    "main.css": "/amx/static/css/main.75392efd.css",
+    "main.js": "/amx/static/js/main.76a3bb1d.js",
     "static/js/787.b025dd53.chunk.js": "/amx/static/js/787.b025dd53.chunk.js",
     "static/media/image2.png": "/amx/static/media/image2.6df57ff3ac1ba301d55a.png",
     "static/media/image1.png": "/amx/static/media/image1.d60f0ee016deff9de411.png",
@@ -18,6 +18,7 @@
     "static/media/image3.png": "/amx/static/media/image3.c799e9df25815fee861b.png",
     "static/media/likepussy.svg": "/amx/static/media/likepussy.6619948e972e95d86b11b35be36f4c74.svg",
     "static/media/forever.svg": "/amx/static/media/forever.fc969b66bd22405bcf989dc876924731.svg",
+    "static/media/grid-mobile.svg": "/amx/static/media/grid-mobile.fce7a2a1b4b0a35e271dc58178919599.svg",
     "static/media/grid.svg": "/amx/static/media/grid.6dfdffcad07ea0bbb24373fb6d431088.svg",
     "static/media/icon-slack.svg": "/amx/static/media/icon-slack.afec22ddab5c5e4b25181db356ea723c.svg",
     "index.html": "/amx/index.html",
@@ -26,14 +27,16 @@
     "static/media/icon-twitter.svg": "/amx/static/media/icon-twitter.6b3c89b9788caec986aae89898581f16.svg",
     "static/media/icon-layout.svg": "/amx/static/media/icon-layout.7274e776e25b5ec13aaaef2e3c4e9ae2.svg",
     "static/media/icon-user.svg": "/amx/static/media/icon-user.74c4d6aee9f053f293fed4f83d070729.svg",
+    "static/media/icon-edit.svg": "/amx/static/media/icon-edit.d975a86c5f56dcfa1d12a299b17e332b.svg",
+    "static/media/icon-mail.svg": "/amx/static/media/icon-mail.8203d2766b7c76bca29729fb2a5256d7.svg",
     "static/media/face-book.svg": "/amx/static/media/face-book.5c27f93168fad8f6b8be5d9c8d47745d.svg",
     "static/media/dp.svg": "/amx/static/media/dp.c43b16364ef4a41f8ce9d9df5ca3e0a3.svg",
-    "main.56746ba6.css.map": "/amx/static/css/main.56746ba6.css.map",
-    "main.8206da84.js.map": "/amx/static/js/main.8206da84.js.map",
+    "main.75392efd.css.map": "/amx/static/css/main.75392efd.css.map",
+    "main.76a3bb1d.js.map": "/amx/static/js/main.76a3bb1d.js.map",
     "787.b025dd53.chunk.js.map": "/amx/static/js/787.b025dd53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56746ba6.css",
-    "static/js/main.8206da84.js"
+    "static/css/main.75392efd.css",
+    "static/js/main.76a3bb1d.js"
   ]
 }
