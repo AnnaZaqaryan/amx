@@ -39,7 +39,7 @@ const cardItems = [
     },
 ]
 
-const AffordablePricing = () => {
+const CardItem = () => {
 
     return (
         <div className="affordable-pricing">
@@ -62,7 +62,6 @@ const AffordablePricing = () => {
                             <Card className="card">
                                 <div>
                                     {item.iconLik}
-                                    {/* <Likepussy /> */}
                                 </div>
                                 {item.iconFor}
                                 <div className="wrapp">
@@ -87,4 +86,4 @@ const AffordablePricing = () => {
     )
 }
 
-export default AffordablePricing;
+export default CardItem;

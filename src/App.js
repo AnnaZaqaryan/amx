@@ -3,9 +3,10 @@ import Header from './header/Header';
 import Main from './main/Main';
 import GridImg from './grid/GridImg';
 import Delivering from './delivering/Delivering';
-import AffordablePricing from './affordablepricing/AffordablePricing';
 import Footer from './footer/Footer';
+import CardItem from './card/CardItem';
 import './App.css';
+
 
 const App = () => {
   
@@ -15,7 +16,7 @@ const App = () => {
       <Main />
       <GridImg/>
       <Delivering/>
-      <AffordablePricing/>
+      <CardItem/>
       <Footer/>
     </div>
   );
