@@ -1,25 +1,30 @@
-.main{
+.main {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-.main .bg{
+
+.main .bg {
     position: absolute;
     left: 45%;
     bottom: 90px;
 }
-.main .combineImg{
+
+.main .combineImg {
     position: relative;
     z-index: 200;
-}
-.main .torepresent{
- margin:  16px 0;
- position: relative;
- z-index: 200;
+    width: 100%;
 }
 
-.main .backgroundImage{
+.main .torepresent {
+    margin: 16px 0;
+    position: relative;
+    z-index: 200;
+    width: 100%;
+}
+
+.main .backgroundImage {
     position: absolute;
     height: 753px;
     width: 800px;
@@ -29,8 +34,44 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.main .donsImg{
+
+.main .donsImg {
     position: absolute;
     right: -355px;
     top: -78px;
+}
+
+.combine-mobile {
+    display: none;
+}
+
+.cool-mobile {
+    display: none;
+}
+
+.torepresent-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .combine-mobile{
+        display: block;
+    }
+
+    .cool-mobile {
+        display: block;
+    }
+    .torepresent-mobile {
+        display: block;
+    }    
+}
+
+@media screen and (max-width: 786px) {
+    .combineImg {
+        display: none;
+    }
+
+    .torepresent {
+        display: none;
+    }
 }
