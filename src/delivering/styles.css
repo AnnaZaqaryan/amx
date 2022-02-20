@@ -1,0 +1,15 @@
+.delivering{
+    margin-top: 160px;
+}
+   
+.delivering .subTitle{
+    padding: 0 12px 40px 12px;
+    color: #2D3436;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+}
+.delivering .iconDelive{
+    padding: 0 12px;
+}

@@ -1,0 +1,22 @@
+
+.menu ul {
+     list-style: none; 
+     display: flex;
+     justify-content: center;
+  }
+ul li{
+    color: #6C5CE7;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    padding: 10px 30px;
+}
+ul li::before {
+    content: "\2022";
+    color: #FDCB6E;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }

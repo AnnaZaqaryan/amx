@@ -1,0 +1,56 @@
+.grid{
+    margin-top: 330px;  
+    position: relative;
+    z-index: 200;
+}
+.grid .title-use{
+    position: relative;
+    color: #2D3436;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    z-index: 200;
+    padding:  0 5px;
+}
+
+.grid .title-this{
+    position: relative;
+    color: #2D3436;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    z-index: 200;
+    width: 77%;
+    padding: 45px 0 0 18px;
+}
+.grid .image{
+    margin: 0 auto;
+    width: 100%;
+}
+.grid .image_3{
+  margin: 0 15px;
+}
+.grid .containerImages-top{
+    display: flex;
+}
+.grid .containerImages-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.grid .btn{
+    background: #6C5CE7;
+    border-radius: 999px;
+    width: 270px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 30px auto;
+}
+.grid .image_3{
+    margin: 0 20px;
+}
