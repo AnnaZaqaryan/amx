@@ -1,23 +1,23 @@
 
-import Header from './header/Header';
-import Main from './main/Main';
-import GridImg from './grid/GridImg';
-import Delivering from './delivering/Delivering';
-import Footer from './footer/Footer';
-import CardItem from './card/CardItem';
+import Header from './header/index';
+import Main from './main/index';
+import GridItem from './grid/index';
+import Delivering from './delivering/index';
+import Footer from './footer/index';
+import CardItem from './card/index';
 import './App.css';
 
 
 const App = () => {
-  
+
   return (
     <div>
       <Header />
       <Main />
-      <GridImg/>
-      <Delivering/>
-      <CardItem/>
-      <Footer/>
+      <GridItem />
+      <Delivering />
+      <CardItem />
+      <Footer />
     </div>
   );
 }

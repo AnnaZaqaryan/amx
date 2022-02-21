@@ -7,6 +7,8 @@ import { ReactComponent as Dp } from '../assets/icons/dp.svg';
 import { ReactComponent as Likepussy } from '../assets/icons/likepussy.svg';
 import { ReactComponent as Forever } from '../assets/icons/forever.svg';
 import { ReactComponent as IconAcrylic } from '../assets/icons/icon-acrylic.svg';
+import { ReactComponent as IconMonth } from '../assets/icons/month.svg';
+import { ReactComponent as IconEditor } from '../assets/icons/editor.svg';
 import './styles.css';
 
 const cardItems = [
@@ -21,7 +23,7 @@ const cardItems = [
     },
     {
         iconLik: <Likepussy />,
-        iconFor: <Forever className='icon-free' />,
+        iconFor: <IconMonth className='icon-free' />,
         iconAcr: <IconAcrylic />,
         descriptionCompo: 'Components-driven system',
         descriptionSales: 'Sales-boosting landing pages',
@@ -30,7 +32,7 @@ const cardItems = [
     },
     {
         iconLik: <Likepussy />,
-        iconFor: <Forever className='icon-free' />,
+        iconFor: <IconEditor className='icon-free' />,
         iconAcr: <IconAcrylic />,
         descriptionCompo: 'Components-driven system',
         descriptionSales: 'Sales-boosting landing pages',

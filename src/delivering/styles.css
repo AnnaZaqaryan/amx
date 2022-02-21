@@ -15,7 +15,7 @@
 }
 .delivering .img{
     width: 100%;
-    margin: 10px;
+    margin: 10px 48px;
 }
 @media screen and (max-width: 991px) {
     .iconDelive{

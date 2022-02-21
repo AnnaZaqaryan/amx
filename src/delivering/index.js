@@ -28,7 +28,7 @@ const Delivering = () => {
                     <Col xs={6} sm={6} md={3} className="d-flex justify-content-center">
                         <img className='img' src={FeatureIconicBlue} />
                     </Col>
-                    <Col  xs={6} sm={6} md={3} className="d-flex justify-content-center">
+                    <Col xs={6} sm={6} md={3} className="d-flex justify-content-center">
                         <img className='img' src={FeatureIconicPurple} />
                     </Col>
                     <Col xs={6} sm={6} md={3} className="d-flex justify-content-center">

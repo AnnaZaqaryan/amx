@@ -56,43 +56,10 @@
     padding: 15px;
     margin: 30px auto;
 }
-
 .grid .image_3 {
     margin: 0 20px;
 }
 
-@media screen and (max-width: 576px) {
-    .image {
-        display: none;
-    }
-
-    .image_2 {
-        display: none;
-    }
-
-    .image_3 {
-        display: none;
-    }
-
-    .image_4 {
-        display: none;
-    }
-
-    .image_5 {
-        display: none;
-    }
-
-    .image_6 {
-        display: none;
-    }
-
-    .image_7 {
-        display: none;
-    }
-}
-.image-mobile{
-    display: none;
-}
 @media screen and (max-width: 576px) {
     .grid .btn{
      display: none;
