@@ -15,8 +15,8 @@ const App = () => {
       <Header />
       <Main />
       <GridItem />
-       <Delivering /> 
-       <CardItem /> 
+       {/* <Delivering /> 
+       <CardItem />  */}
        <Footer />
     </div>
   );
