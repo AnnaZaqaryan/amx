@@ -60,8 +60,13 @@
 .grid .image_3 {
     margin: 0 20px;
 }
+.image-mobile-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
 .image-mobile2, .image-mobile5{
-    margin: 0 10px;
+    margin: 0 25px;
 }
 
 @media screen and (max-width: 576px) {

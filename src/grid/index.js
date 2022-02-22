@@ -20,19 +20,25 @@ import './styles.css';
 const GridItem = () => {
     return (
         <div className='grid'>
-            <img className='image-mobile' src={ImageMobile_3} />
-                        <img className='image-mobile2' src={ImageMobile_2} />
-                        <img className='image-mobile4' src={ImageMobile_4} />
-                        <img className='image-mobile4' src={ImageMobile_7} />
-                        <img className='image-mobile5' src={ImageMobile_5} />
-                        <img className='image-mobile6' src={ImageMobile_6} />
-                        <img className='image-mobile9' src={ImageMobile_8} />
+            <div>
+                <img className='image-mobile' src={ImageMobile_3} />
+                <img className='image-mobile2' src={ImageMobile_2} />
+                <img className='image-mobile4' src={ImageMobile_4} />
+            </div>
+            <div>
+                <img className='image-mobile4' src={ImageMobile_7} />
+                <img className='image-mobile5' src={ImageMobile_5} />
+                <img className='image-mobile6' src={ImageMobile_6} />
+            </div>
+            <div className='image-mobile-wrapper'>
+                <img className='image-mobile9' src={ImageMobile_8} />
+            </div>
             <Container>
                 <Row className="d-flex justify-content-center">
                     <Col xs={9} sm={6} md={3}>
                         <p className='title-use'>Use mixed grid with imagery, replace with your own photos and descriptions</p>
                         <img className='image' src={Image_1} />
-                        
+
                         <button className="btn">Learn more</button>
                     </Col>
                     <Col md={8}>
