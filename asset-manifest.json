@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amx/static/css/main.6d08440e.css",
-    "main.js": "/amx/static/js/main.00dd2b69.js",
+    "main.css": "/amx/static/css/main.95c8da1a.css",
+    "main.js": "/amx/static/js/main.613d2dba.js",
     "static/js/787.b025dd53.chunk.js": "/amx/static/js/787.b025dd53.chunk.js",
     "static/media/image2.png": "/amx/static/media/image2.6df57ff3ac1ba301d55a.png",
     "static/media/image1.png": "/amx/static/media/image1.d60f0ee016deff9de411.png",
@@ -27,24 +27,27 @@
     "static/media/month.svg": "/amx/static/media/month.88132fa0a6fded082df860eb67e5dd40.svg",
     "static/media/grid-mobile.svg": "/amx/static/media/grid-mobile.fce7a2a1b4b0a35e271dc58178919599.svg",
     "static/media/grid.svg": "/amx/static/media/grid.6dfdffcad07ea0bbb24373fb6d431088.svg",
+    "static/media/youtube-mobile.svg": "/amx/static/media/youtube-mobile.95692496509196d3a9ff3d1cfdc33cb3.svg",
     "static/media/icon-btn-mobile.svg": "/amx/static/media/icon-btn-mobile.05ae291a35d141c2de8c5811aa94bf1c.svg",
     "static/media/icon-slack.svg": "/amx/static/media/icon-slack.afec22ddab5c5e4b25181db356ea723c.svg",
     "index.html": "/amx/index.html",
     "static/media/icon-linkedin.svg": "/amx/static/media/icon-linkedin.70996ca3cc5e27c1ad1a63192ac0302c.svg",
     "static/media/icon-acrylic.svg": "/amx/static/media/icon-acrylic.73a70c8afdc921b72bfcd81b443584a9.svg",
+    "static/media/Tw-mobile.svg": "/amx/static/media/Tw-mobile.1bd20080ad5da106d017439461605ad1.svg",
     "static/media/icon-twitter.svg": "/amx/static/media/icon-twitter.6b3c89b9788caec986aae89898581f16.svg",
     "static/media/icon-layout.svg": "/amx/static/media/icon-layout.7274e776e25b5ec13aaaef2e3c4e9ae2.svg",
     "static/media/icon-user.svg": "/amx/static/media/icon-user.74c4d6aee9f053f293fed4f83d070729.svg",
     "static/media/icon-edit.svg": "/amx/static/media/icon-edit.d975a86c5f56dcfa1d12a299b17e332b.svg",
     "static/media/icon-mail.svg": "/amx/static/media/icon-mail.8203d2766b7c76bca29729fb2a5256d7.svg",
     "static/media/face-book.svg": "/amx/static/media/face-book.5c27f93168fad8f6b8be5d9c8d47745d.svg",
+    "static/media/faceBook-mobile.svg": "/amx/static/media/faceBook-mobile.fc3687a06767d1d259a3eaf65b7524a7.svg",
     "static/media/dp.svg": "/amx/static/media/dp.c43b16364ef4a41f8ce9d9df5ca3e0a3.svg",
-    "main.6d08440e.css.map": "/amx/static/css/main.6d08440e.css.map",
-    "main.00dd2b69.js.map": "/amx/static/js/main.00dd2b69.js.map",
+    "main.95c8da1a.css.map": "/amx/static/css/main.95c8da1a.css.map",
+    "main.613d2dba.js.map": "/amx/static/js/main.613d2dba.js.map",
     "787.b025dd53.chunk.js.map": "/amx/static/js/787.b025dd53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d08440e.css",
-    "static/js/main.00dd2b69.js"
+    "static/css/main.95c8da1a.css",
+    "static/js/main.613d2dba.js"
   ]
 }
