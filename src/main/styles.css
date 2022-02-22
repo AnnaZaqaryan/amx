@@ -35,39 +35,53 @@
     background-size: cover;
 }
 
-.main .wave-mobile {
-    position: absolute;
+.backgroundImageMobile {
     height: 753px;
-    width: 800px;
-    left: 54%;
-    top: -85px;
-    opacity: 0.5;
+    width: 400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.main .donsImg {
+.backgWrappMobile {
+    position: relative;
+}
+
+.rectangleMobile {
     position: absolute;
-    right: -414px;
-    top: -78px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
-.combine-mobile {
-    display: none;
-    margin: 20px 0;
+.dotsMobile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
-.cool-mobile {
+.coolMobile{
+    position: relative;
+    z-index: 200;
+    margin: 30px 0 0 0;
+}
+.bgMobile{
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+}
+.backgroundMobile {
     display: none;
-    margin: 20px 0;
 }
 
-.torepresent-mobile {
-    display: none;
-}
-
-.bg {
-    display: none;
+@media screen and (max-width: 576px) {
+    .backgroundMobile {
+        display: block;
+        width: 100%;
+        opacity: 0.6;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -107,4 +121,17 @@
     .backgroundImage {
         display: none;
     }
+}
+
+.cool-mobile {
+    display: none;
+    margin: 20px 0;
+}
+
+.torepresent-mobile {
+    display: none;
+}
+
+.bg {
+    display: none;
 }

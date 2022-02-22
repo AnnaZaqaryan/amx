@@ -57,22 +57,7 @@
 .card .icon-free{
     margin:  16px 0 24px 0;
 }
-.pricing-mobile{
-    display: none;
-}
-@media screen and (max-width: 576px) {
-    .affordable{
-       display: none;
-    }
-    .pricing-mobile{
-        display: block;
-        padding: 0 60px;
-    }
-}
 
 @media screen and (max-width: 576px) {
-    .affordable-pricing .card{
-        width: 100%;
-        margin: 20px 0;
-       }
+
 }
