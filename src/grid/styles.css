@@ -1,5 +1,5 @@
 .grid {
-    margin-top: 330px;
+    margin-top: 30px;
     position: relative;
     z-index: 200;
 }
@@ -60,6 +60,9 @@
 .grid .image_3 {
     margin: 0 20px;
 }
+.image-mobile2, .image-mobile5{
+    margin: 0 10px;
+}
 
 @media screen and (max-width: 576px) {
 
@@ -74,26 +77,12 @@
     }
 }
 
-
 @media screen and (max-width: 576px) {
     .title-this,
      .title-use {
         display: none;
     }
-}
-
-@media screen and (max-width: 576px) {
     .grid .btn {
         display: none;
     }
 }
-
-/* @media screen and (max-width: 991px) {
-    .grid .title-use {
-        display: none;
-    }
-
-    .grid .title-this {
-        display: none;
-    }
-} */

@@ -40,10 +40,12 @@
     width: 400px;
     background-repeat: no-repeat;
     background-size: cover;
+    display: none;
 }
 
 .backgWrappMobile {
     position: relative;
+    display: none;
 }
 
 .rectangleMobile {
@@ -53,6 +55,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    display: none;
 }
 
 .dotsMobile {
@@ -60,27 +63,122 @@
     top: 0;
     right: 0;
     bottom: 0;
+    display: none;
 }
 
-.coolMobile{
+.coolMobile {
     position: relative;
     z-index: 200;
     margin: 30px 0 0 0;
-}
-.bgMobile{
-    position: absolute;
-    bottom: 0;
-    left: 4px;
-}
-.backgroundMobile {
     display: none;
+}
+
+.bgMobile {
+    position: absolute;
+    bottom: 98px;
+    left: 4px;
+    display: none;
+}
+
+.torepresentMobile {
+    margin: 20px 0;
+    padding: 0px 19px;
+    display: none;
+}
+
+.btnMobile {
+    position: relative;
+    display: none;
+}
+
+.icon-btn-mobile {
+    position: absolute;
+    right: -54px;
+    top: 50px;
+    bottom: 0;
+    display: none;
+}
+
+.combineMobile {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .backgroundImageMobile {
+        height: 753px;
+        width: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+
+    .backgWrappMobile {
+        position: relative;
+        display: block;
+    }
+
+    .rectangleMobile {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .dotsMobile {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+    }
+
+    .coolMobile {
+        position: relative;
+        z-index: 200;
+        margin: 30px 0 0 0;
+        display: block;
+    }
+
+    .bgMobile {
+        position: absolute;
+        bottom: 98px;
+        left: 4px;
+        display: block;
+    }
+
+    .torepresentMobile {
+        margin: 20px 0;
+        padding: 0px 19px;
+        display: block;
+    }
+
+    .btnMobile {
+        position: relative;
+        display: block;
+    }
+
+    .icon-btn-mobile {
+        position: absolute;
+        right: -54px;
+        top: 50px;
+        bottom: 0;
+        display: block;
+    }
+
+    .combineMobile {
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
     .backgroundMobile {
         display: block;
         width: 100%;
-        opacity: 0.6;
+        opacity: 0.5;
     }
 }
 
@@ -121,17 +219,8 @@
     .backgroundImage {
         display: none;
     }
-}
 
-.cool-mobile {
-    display: none;
-    margin: 20px 0;
-}
-
-.torepresent-mobile {
-    display: none;
-}
-
-.bg {
-    display: none;
+    .bg {
+        display: none;
+    }
 }

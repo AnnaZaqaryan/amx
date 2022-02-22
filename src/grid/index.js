@@ -7,17 +7,32 @@ import Image_4 from '../assets/images/image4.png';
 import Image_5 from '../assets/images/image5.png';
 import Image_6 from '../assets/images/image6.png';
 import Image_7 from '../assets/images/image7.png';
+import ImageMobile_3 from '../assets/images-mobile/image3-mobile.png';
+import ImageMobile_2 from '../assets/images-mobile/image2-mobile.png';
+import ImageMobile_4 from '../assets/images-mobile/image4-mobile.png';
+import ImageMobile_7 from '../assets/images-mobile/image7-mobile.png';
+import ImageMobile_5 from '../assets/images-mobile/image5-mobile.png';
+import ImageMobile_6 from '../assets/images-mobile/image6-mobile.png';
+import ImageMobile_8 from '../assets/images-mobile/image8-mobile.png';
 
 import './styles.css';
 
 const GridItem = () => {
     return (
         <div className='grid'>
+            <img className='image-mobile' src={ImageMobile_3} />
+                        <img className='image-mobile2' src={ImageMobile_2} />
+                        <img className='image-mobile4' src={ImageMobile_4} />
+                        <img className='image-mobile4' src={ImageMobile_7} />
+                        <img className='image-mobile5' src={ImageMobile_5} />
+                        <img className='image-mobile6' src={ImageMobile_6} />
+                        <img className='image-mobile9' src={ImageMobile_8} />
             <Container>
                 <Row className="d-flex justify-content-center">
-                    <Col md={3}>
+                    <Col xs={9} sm={6} md={3}>
                         <p className='title-use'>Use mixed grid with imagery, replace with your own photos and descriptions</p>
                         <img className='image' src={Image_1} />
+                        
                         <button className="btn">Learn more</button>
                     </Col>
                     <Col md={8}>
