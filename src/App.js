@@ -15,9 +15,9 @@ const App = () => {
       <Header />
       <Main />
       <GridItem />
-       {/* <Delivering /> 
-       <CardItem />  */}
-       <Footer />
+      <Delivering />
+      <CardItem />
+      <Footer />
     </div>
   );
 }

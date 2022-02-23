@@ -1,41 +1,46 @@
-.footer{
+.footer {
     margin-top: 200px;
 }
-.footer .follow{
- color: #ADADAD;
- font-weight: 800;
- font-size: 12px;
- line-height: 15px;
- letter-spacing: 2.5px;
- text-transform: uppercase;
-}
-.footer .information{
+
+.footer .follow {
     color: #ADADAD;
     font-weight: 800;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 2.5px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+}
+
+.footer .information {
+    color: #ADADAD;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
     margin: 16px 0 0 0;
 }
-.footer .keep{
+
+.footer .keep {
     color: #ADADAD;
     font-weight: 800;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 2.5px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     margin: 16px 0;
 }
-.footer .follow{
+
+.footer .follow {
     color: #ADADAD;
     font-weight: 800;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 2.5px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
-.footer a{
+
+.footer a {
     display: flex;
     color: #2D3436;
     font-size: 14px;
@@ -43,45 +48,74 @@
     padding: 16px 0 0 0;
     text-decoration: none;
 }
-.footer .active{
-    border-bottom:  solid 1px #2D3436;
+
+.footer .active {
+    border-bottom: solid 1px #2D3436;
     width: 120px;
 }
+
 .footer .icons {
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 }
-.footer .icons svg{
+
+.footer .icons svg {
     margin-right: 32px;
     cursor: pointer;
 }
-.footer .footer-image{
-  width: 100%;  
-  border-radius: 20px;
+
+.footer .footer-image {
+    width: 100%;
+    border-radius: 20px;
 }
-.footerMobile{
+
+.footerMobile {
     position: relative;
 }
-.footerBgMobile{
+
+.footerBgMobile {
     position: absolute;
     left: 0;
     bottom: 0;
 }
-.footerMobileDots{
+
+.footerMobileDots {
     bottom: 0;
     position: absolute;
     left: 30px;
 }
-.icons-mobile{
+
+.text-grup-mobile {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 24px;
+    color: #2D3436;
+    margin: 5px 0;
+}
+
+.madeIn {
+    color: #00B894;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+}
+
+.icons-mobile {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
-.colorBlack{
+
+.colorBlack {
     color: #000;
 }
+
 @media screen and (max-width: 576px) {
-    .footer{
+    .footer {
         display: none;
     }
 }
-
