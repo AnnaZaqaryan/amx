@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amx/static/css/main.521efe8d.css",
-    "main.js": "/amx/static/js/main.479844ca.js",
+    "main.css": "/amx/static/css/main.4e7b578d.css",
+    "main.js": "/amx/static/js/main.6e44a499.js",
     "static/js/787.b025dd53.chunk.js": "/amx/static/js/787.b025dd53.chunk.js",
     "static/media/image2.png": "/amx/static/media/image2.6df57ff3ac1ba301d55a.png",
     "static/media/image1.png": "/amx/static/media/image1.d60f0ee016deff9de411.png",
@@ -45,12 +45,12 @@
     "static/media/faceBook-mobile.svg": "/amx/static/media/faceBook-mobile.fc3687a06767d1d259a3eaf65b7524a7.svg",
     "static/media/dp.svg": "/amx/static/media/dp.c43b16364ef4a41f8ce9d9df5ca3e0a3.svg",
     "static/media/dp-mobile.svg": "/amx/static/media/dp-mobile.5c68ff89f3f363187d8b504a423c6bea.svg",
-    "main.521efe8d.css.map": "/amx/static/css/main.521efe8d.css.map",
-    "main.479844ca.js.map": "/amx/static/js/main.479844ca.js.map",
+    "main.4e7b578d.css.map": "/amx/static/css/main.4e7b578d.css.map",
+    "main.6e44a499.js.map": "/amx/static/js/main.6e44a499.js.map",
     "787.b025dd53.chunk.js.map": "/amx/static/js/787.b025dd53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.521efe8d.css",
-    "static/js/main.479844ca.js"
+    "static/css/main.4e7b578d.css",
+    "static/js/main.6e44a499.js"
   ]
 }
