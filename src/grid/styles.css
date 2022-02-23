@@ -80,6 +80,28 @@
     display: none;
 }
 
+@media screen and (max-width: 996px) {
+
+    .image,
+    .image_2,
+    .image_5,
+    .image_6,
+    .image_7,
+    .image_3,
+    .image_4 {
+        display: none;
+    }
+
+    .title-use,
+    .title-this {
+        display: none;
+    }
+
+    .grid .btn {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 576px) {
 
     .image,
@@ -112,13 +134,22 @@
         display: block;
         display: flex;
     }
+
     .grid {
         margin-top: 30px;
     }
+    .image-mobile4, .image-mobile6{
+        position: absolute;
+        right:0;
+    }
+    .image-mobile9{
+        margin-top: 36px;
+    }
+   
 }
 
 @media screen and (max-width: 400px) {
-
+   
     .image-mobile2,
     .image-mobile5 {
         margin: 0 10px;

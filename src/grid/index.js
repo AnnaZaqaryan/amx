@@ -26,7 +26,7 @@ const GridItem = () => {
                 <img className='image-mobile4' src={ImageMobile_4} />
             </div>
             <div className='grid-mobile'>
-                <img className='image-mobile4' src={ImageMobile_7} />
+                <img className='image-mobile' src={ImageMobile_7} />
                 <img className='image-mobile5' src={ImageMobile_5} />
                 <img className='image-mobile6' src={ImageMobile_6} />
             </div>
@@ -38,7 +38,6 @@ const GridItem = () => {
                     <Col xs={9} sm={6} md={3}>
                         <p className='title-use'>Use mixed grid with imagery, replace with your own photos and descriptions</p>
                         <img className='image' src={Image_1} />
-
                         <button className="btn">Learn more</button>
                     </Col>
                     <Col md={8}>
