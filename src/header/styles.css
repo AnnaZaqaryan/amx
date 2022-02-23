@@ -1,4 +1,6 @@
 .navbar-light {
+    position: relative;
+    z-index: 200;
     width: 100%;
     display: flex;
     align-items: center;

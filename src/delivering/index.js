@@ -19,6 +19,9 @@ const Delivering = () => {
                         <Delive className='iconDelive' />
                         <p className="subTitle">We’re the first multi-purpose design kit solutions for businesses. We help you bridge
                             gaps between your layouts, templates and developers to empower all involved.</p>
+                        <p className='subTitleMobile'>Delivering good designs <br /> <span className='since1954'>since 1954</span></p>
+                        <p className='discretion'>We’re the first multi-purpose design kit solutions for businesses. We help you bridge gaps between
+                            your</p>
                     </Col>
                 </Row>
                 <Row>

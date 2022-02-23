@@ -1,8 +1,8 @@
-.delivering{
+.delivering {
     margin-top: 160px;
 }
-   
-.delivering .subTitle{
+
+.delivering .subTitle {
     padding: 0 12px 40px 12px;
     color: #2D3436;
     font-weight: normal;
@@ -10,15 +10,49 @@
     line-height: 36px;
     letter-spacing: -0.25px;
 }
-.delivering .iconDelive{
+
+.delivering .iconDelive {
     padding: 0 12px;
 }
-.delivering .img{
+
+.delivering .img {
     width: 100%;
     margin: 10px 48px;
 }
-@media screen and (max-width: 991px) {
-    .iconDelive{
-        width: 100%;
+
+.since1954 {
+    display: none;
+}
+
+.discretion {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .subTitleMobile {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.25px;
+        color: #2D3436;
+    }
+
+    .since1954 {
+        color: #6c5ce7;
+        display: block;
+    }
+
+    .discretion {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .iconDelive {
+        display: none;
+    }
+
+    .subTitle {
+        display: none;
     }
 }
