@@ -47,7 +47,7 @@
 .grid .btn {
     background: #6C5CE7;
     border-radius: 999px;
-    width: 270px;
+    width: 100%;
     color: #fff;
     font-size: 32px;
     font-weight: bold;
@@ -58,7 +58,7 @@
 }
 
 .grid .image_3 {
-    margin: 0 20px;
+    margin: 5px 20px;
 }
 
 .image-mobile-wrapper {
@@ -110,6 +110,7 @@
 
     .image-mobile-wrapper {
         display: block;
+        display: flex;
     }
     .grid {
         margin-top: 30px;

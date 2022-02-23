@@ -29,7 +29,7 @@ const Main = () => {
             </div>
             <Container>
                 <Row className="main">
-                    <Col xs={6} md={12} lg={12}>
+                    <Col xs={6} md={12} lg={12} className="col">
                         {/* <div className="backgroundImage" style={{ backgroundImage: `url(${Rectangle})` }}></div> */}
                         {/* <img className='donsImg' src={Dots} /> */}
                         <img className='combineImg' src={CombineImg} />
@@ -44,7 +44,7 @@ const Main = () => {
                             <IconBtnMobile className="icon-btn-mobile" />
                         </div>
                     </Col>
-                    <Col xs={6} md={10} lg={12}>
+                    <Col xs={6} md={10} lg={12}  className="col">
                         <img className='torepresent' src={Torepresent} />
                     </Col>
                 </Row>

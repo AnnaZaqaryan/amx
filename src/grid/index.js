@@ -47,7 +47,7 @@ const GridItem = () => {
                             <div>
                                 <p className='title-this'>This is multipurpose grid, it fits for portfolio, services or agency web site</p>
                                 <img className='image_3' src={Image_3} />
-                                <img className='image_4' src={Image_4} />
+                                <img className='image_3' src={Image_4} />
                             </div>
                         </div>
                         <div className='containerImages-bottom'>
