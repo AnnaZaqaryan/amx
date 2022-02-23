@@ -30,8 +30,8 @@ const Main = () => {
             <Container>
                 <Row className="main">
                     <Col xs={6} md={12} lg={12} className="col">
-                        {/* <div className="backgroundImage" style={{ backgroundImage: `url(${Rectangle})` }}></div> */}
-                        {/* <img className='donsImg' src={Dots} /> */}
+                        <div className="backgroundImage" style={{ backgroundImage: `url(${Rectangle})` }}></div>
+                         <img className='donsImg' src={Dots} />
                         <img className='combineImg' src={CombineImg} />
                         <img className='bg' src={Bg} />
                         <img className='combineMobile' src={CombineMobile} />

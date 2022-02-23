@@ -29,7 +29,7 @@
     height: 753px;
     width: 800px;
     left: 55%;
-    top: -96px;
+    top: -119px;
     opacity: 0.5;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,6 +176,7 @@
 }
 
 .col{
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
