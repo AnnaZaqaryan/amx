@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amx/static/css/main.95c8da1a.css",
-    "main.js": "/amx/static/js/main.613d2dba.js",
+    "main.css": "/amx/static/css/main.521efe8d.css",
+    "main.js": "/amx/static/js/main.479844ca.js",
     "static/js/787.b025dd53.chunk.js": "/amx/static/js/787.b025dd53.chunk.js",
     "static/media/image2.png": "/amx/static/media/image2.6df57ff3ac1ba301d55a.png",
     "static/media/image1.png": "/amx/static/media/image1.d60f0ee016deff9de411.png",
@@ -30,8 +30,10 @@
     "static/media/youtube-mobile.svg": "/amx/static/media/youtube-mobile.95692496509196d3a9ff3d1cfdc33cb3.svg",
     "static/media/icon-btn-mobile.svg": "/amx/static/media/icon-btn-mobile.05ae291a35d141c2de8c5811aa94bf1c.svg",
     "static/media/icon-slack.svg": "/amx/static/media/icon-slack.afec22ddab5c5e4b25181db356ea723c.svg",
+    "static/media/slack-mobile.svg": "/amx/static/media/slack-mobile.9e02842aa7e4b17db45f1d6285e1f2ed.svg",
     "index.html": "/amx/index.html",
     "static/media/icon-linkedin.svg": "/amx/static/media/icon-linkedin.70996ca3cc5e27c1ad1a63192ac0302c.svg",
+    "static/media/linkedin-mobile.svg": "/amx/static/media/linkedin-mobile.0920e8e257921a1c2dab1d025f3035da.svg",
     "static/media/icon-acrylic.svg": "/amx/static/media/icon-acrylic.73a70c8afdc921b72bfcd81b443584a9.svg",
     "static/media/Tw-mobile.svg": "/amx/static/media/Tw-mobile.1bd20080ad5da106d017439461605ad1.svg",
     "static/media/icon-twitter.svg": "/amx/static/media/icon-twitter.6b3c89b9788caec986aae89898581f16.svg",
@@ -42,12 +44,13 @@
     "static/media/face-book.svg": "/amx/static/media/face-book.5c27f93168fad8f6b8be5d9c8d47745d.svg",
     "static/media/faceBook-mobile.svg": "/amx/static/media/faceBook-mobile.fc3687a06767d1d259a3eaf65b7524a7.svg",
     "static/media/dp.svg": "/amx/static/media/dp.c43b16364ef4a41f8ce9d9df5ca3e0a3.svg",
-    "main.95c8da1a.css.map": "/amx/static/css/main.95c8da1a.css.map",
-    "main.613d2dba.js.map": "/amx/static/js/main.613d2dba.js.map",
+    "static/media/dp-mobile.svg": "/amx/static/media/dp-mobile.5c68ff89f3f363187d8b504a423c6bea.svg",
+    "main.521efe8d.css.map": "/amx/static/css/main.521efe8d.css.map",
+    "main.479844ca.js.map": "/amx/static/js/main.479844ca.js.map",
     "787.b025dd53.chunk.js.map": "/amx/static/js/787.b025dd53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95c8da1a.css",
-    "static/js/main.613d2dba.js"
+    "static/css/main.521efe8d.css",
+    "static/js/main.479844ca.js"
   ]
 }
