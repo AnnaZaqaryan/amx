@@ -20,12 +20,12 @@ import './styles.css';
 const GridItem = () => {
     return (
         <div className='grid'>
-            <div>
+            <div className='grid-mobile'>
                 <img className='image-mobile' src={ImageMobile_3} />
                 <img className='image-mobile2' src={ImageMobile_2} />
                 <img className='image-mobile4' src={ImageMobile_4} />
             </div>
-            <div>
+            <div className='grid-mobile'>
                 <img className='image-mobile4' src={ImageMobile_7} />
                 <img className='image-mobile5' src={ImageMobile_5} />
                 <img className='image-mobile6' src={ImageMobile_6} />

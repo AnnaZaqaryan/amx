@@ -22,6 +22,7 @@
     right: 7px;
     top: 5px;
 }
+
 .ax-input .input {
     background: #f0f0f0;
     border-radius: 16px;
@@ -29,11 +30,12 @@
     width: 248px;
     border: none;
     padding: 0 15px;
- }
+}
+
 ::placeholder {
     color: Black;
     opacity: 1;
-  }
+}
 
 .textarea-icon {
     position: relative;
@@ -59,7 +61,8 @@
     display: flex;
     align-items: center;
 }
-.ax-textarea .button{
+
+.ax-textarea .button {
     width: 170px;
     height: 80px;
     border: none;
@@ -68,8 +71,45 @@
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.25px;
-    background: #6C5CE7;  
+    background: #6C5CE7;
     box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1), 0px 16px 32px rgba(38, 50, 56, 0.08);
     border-radius: 16px
 }
 
+@media screen and (max-width: 1096px) {
+    .ax-input .input {
+        width: 100%;
+    }
+
+    .textarea {
+        width: 100%;
+    }
+
+    .ax-input .your-name {
+        margin-right: 5px;
+    }
+
+    .textarea-icon {
+        margin-right: 5px;
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    .ax-textarea {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ax-input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textarea-icon {
+        width: 100%;
+    }
+
+    .ax-input .input {
+        margin: 11px 0;
+    }
+}

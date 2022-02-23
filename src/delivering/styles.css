@@ -27,6 +27,9 @@
 .discretion {
     display: none;
 }
+.subTitleMobile{
+    display: none;
+}
 
 @media screen and (max-width: 576px) {
     .subTitleMobile {
@@ -35,6 +38,7 @@
         line-height: 36px;
         letter-spacing: 0.25px;
         color: #2D3436;
+        display: block;
     }
 
     .since1954 {
@@ -44,6 +48,9 @@
 
     .discretion {
         display: block;
+    }
+    .delivering .img {
+        width: 80%;
     }
 }
 

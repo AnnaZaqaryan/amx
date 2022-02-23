@@ -163,16 +163,23 @@
     .icon-btn-mobile {
         position: absolute;
         right: -54px;
-        top: 50px;
+        top: 26px;
         bottom: 0;
         display: block;
     }
 
     .combineMobile {
         display: block;
+        margin-top: 20px;
     }
 
 }
+
+/* @media screen and (max-width: 1096px) {}
+
+.torepresent, .combineImg,.bg{
+    display: none;
+} */
 
 @media screen and (max-width: 576px) {
     .backgroundMobile {

@@ -83,7 +83,7 @@ const Footer = () => {
                 <a href='#'><YoutubeMobile /> </a>
             </div>
             <div className="footerMobile">
-                <img className="" src={footerMobile} />
+                <img  src={footerMobile} />
                 <img className="footerBgMobile" src={footerBgMobile} />
                 <img className="footerMobileDots" src={footerMobileDots} />
             </div>
