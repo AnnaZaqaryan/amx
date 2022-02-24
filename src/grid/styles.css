@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     padding: 15px;
-    margin: 30px auto;
+    margin: 30px auto
 }
 
 .grid .image_3 {
@@ -64,7 +64,7 @@
 .image-mobile-wrapper {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .image-mobile2,

@@ -7,8 +7,8 @@
 
 .main .bg {
     position: absolute;
-    left: 45%;
-    bottom: 90px;
+    left: 43%;
+    bottom: 0px;
 }
 
 .main .combineImg {
@@ -33,6 +33,11 @@
     opacity: 0.5;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.donsImg{
+    position: absolute;
+    right: -48%;
+    top: -101px;
 }
 
 .backgroundImageMobile {
@@ -170,7 +175,7 @@
 
     .combineMobile {
         display: block;
-        margin-top: 20px;
+        margin-top: 60px;
     }
 
 }

@@ -55,6 +55,7 @@
     }
     .delivering .img {
         width: 80%;
+        margin: 10x 0;
     }
 }
 
