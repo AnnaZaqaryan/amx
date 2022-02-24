@@ -37,12 +37,12 @@ const GridItem = () => {
                 <Row className="d-flex justify-content-center">
                     <Col xs={9} sm={6} md={3}>
                         <p className='title-use'>Use mixed grid with imagery, replace with your own photos and descriptions</p>
-                        <img className='image' src={Image_1} />
+                      <img className='image' src={Image_1} />
                         <button className="btn">Learn more</button>
                     </Col>
                     <Col md={8}>
                         <div className='containerImages-top'>
-                            <img className='image_2' src={Image_2} />
+                          <img className='image_2' src={Image_2} />
                             <div>
                                 <p className='title-this'>This is multipurpose grid, it fits for portfolio, services or agency web site</p>
                                 <img className='image_3' src={Image_3} />

@@ -101,6 +101,10 @@
         display: none;
     }
 }
+.image_2{
+    max-height: 326px;
+    max-width: 329px;
+}
 
 @media screen and (max-width: 576px) {
 
