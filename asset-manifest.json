@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/amx/static/css/main.9f82c3dd.css",
+    "main.css": "/amx/static/css/main.e5d43287.css",
     "main.js": "/amx/static/js/main.6e44a499.js",
     "static/js/787.b025dd53.chunk.js": "/amx/static/js/787.b025dd53.chunk.js",
     "static/media/image2.png": "/amx/static/media/image2.6df57ff3ac1ba301d55a.png",
@@ -45,12 +45,12 @@
     "static/media/faceBook-mobile.svg": "/amx/static/media/faceBook-mobile.fc3687a06767d1d259a3eaf65b7524a7.svg",
     "static/media/dp.svg": "/amx/static/media/dp.c43b16364ef4a41f8ce9d9df5ca3e0a3.svg",
     "static/media/dp-mobile.svg": "/amx/static/media/dp-mobile.5c68ff89f3f363187d8b504a423c6bea.svg",
-    "main.9f82c3dd.css.map": "/amx/static/css/main.9f82c3dd.css.map",
+    "main.e5d43287.css.map": "/amx/static/css/main.e5d43287.css.map",
     "main.6e44a499.js.map": "/amx/static/js/main.6e44a499.js.map",
     "787.b025dd53.chunk.js.map": "/amx/static/js/787.b025dd53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f82c3dd.css",
+    "static/css/main.e5d43287.css",
     "static/js/main.6e44a499.js"
   ]
 }
